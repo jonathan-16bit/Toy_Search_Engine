@@ -6,8 +6,10 @@ This project was created to play with prefix trees at the core level.
 
 While it implements basic search engine functions, it would need features like data persistence, full-text search and relevance sorting to become a full application.
 
-# Why use tries?
-They enable O(len of keyword) prefix-based search of titles and tags. 
+# Working with tries
+Tries are useful because they enable O(len of keyword) prefix-based search of titles and tags. 
+
+The fun part was actually working with deletions and new additions, since it required modifying the tree while preserving shared prefixes and keeping the trie intact.
 
 # Metadata details
 Title: The name or description of the code snippet.
