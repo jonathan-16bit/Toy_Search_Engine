@@ -19,3 +19,6 @@ Tags: Labels that describe the content of the code snippet.
 Pin status: A Boolean flag to indicate the priority status of a snippet.
 
 (All metadata fields support retrieval via search)
+
+# Note
+Please refer to trie_mechanics.md  for the trie implementation details.
